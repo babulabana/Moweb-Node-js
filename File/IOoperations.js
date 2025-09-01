@@ -5,7 +5,7 @@ fs.rename("demo.txt","newdemo.txt",(err)=>{
     console.log("file renamed successfully")
 })
 
-// fs.existsSync("newdemo.txt");
+
 fs.existsSync('newdemo.txt');
 
 fs.stat("newdemo.txt",(err,stats)=>{

@@ -24,8 +24,7 @@ http.createServer((req,res)=>{
 
 
 
-    // res.write("hello vishal labana")
-
+    
 
     res.end()
 }).listen(8010,()=>console.log("server is runing at port 8010"))
